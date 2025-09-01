@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Climate Pulse
 
-## Getting Started
+Welcome to **Climate Pulse**, a Next.js-based web application that provides real-time weather and air quality information for various locations worldwide. This project utilizes dynamic routing, API routes, and a location switcher to deliver an interactive user experience.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Climate Pulse displays current weather conditions, temperature, air quality index, and other environmental data for selected locations. The layout features a visually appealing design with a background image, a 2x2 grid of cards, and a location switcher (accessible via the link icon beside the region name). The project is built with Next.js, leveraging its App Router for dynamic routing and server-side rendering.
+
+- **Region**: Displays the current region (e.g., North America) and city (e.g., New York City).
+- **Cards**: Show details such as Current Weather (e.g., overcast clouds), Current Temperature (e.g., 23.59°C), and Air Pollution & Quality (e.g., Air Quality Index, pollutant levels).
+- **Location Switcher**: Allows users to select from a list of locations to view data for different cities.
+
+## Features
+
+- **Dynamic Routing**: Navigate to specific location pages using Next.js dynamic routes.
+- **API Routes**: Fetch and serve location-based data through custom API endpoints.
+- **Location Switcher**: Interactive list to switch between locations, integrated with the UI.
+- **Real-Time Data**: Displays current weather and air quality metrics (mocked or from an API).
+- **Responsive Design**: Optimized layout with a background image and card-based information display.
+
+## Prerequisites
+
+- Node.js (v14.x or later)
+- npm or yarn
+- Git (for cloning the repository)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/khadija-T/climate-pulse.git
+   cd climate-pulse
+   ```
+
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Environment variable
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- NEXT_PUBLIC_API_URL= get an api key from the [OpenWeather API](https://openweathermap.org/current)
 
-## Learn More
+## Run the development server
+ ```bash
+  npm run dev
+  #or
+  yarn dev
+````
 
-To learn more about Next.js, take a look at the following resources:
+Open http://localhost:3000 in your browser to see the app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- <img src="screenshots/1.png" alt="Default Current Location View" width="300">
 
-## Deploy on Vercel
+- <img src="screenshots/2.png" alt="Switcher" width= "300">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- <img src="screenshots/3.png" alt="Selected Location View" width= "300">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- <img src="screenshots/mobile.png" alt="Mobile View 1" width="300">
+
+- <img src="screenshots/mobile2.png" alt="Mobile View 2" width="300">
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit pull requests for any enhancements or bug fixes. Ensure to follow the existing code style and add tests if applicable.
+
+## Contact
+
+- **GitHub**: [khadija-T](https://github.com/khadija-T)
+- **Email**: [khadija.t20037@gmail.com](mailto:khadija.t20037@gmail.com)
+- **LinkedIn**: [Khadijatull Kobra](https://www.linkedin.com/in/khadijatull-kobra-80b1a9348)
