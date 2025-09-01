@@ -33,22 +33,19 @@ Climate Pulse displays current weather conditions, temperature, air quality inde
    cd climate-pulse
    ```
 
-````
+2. Run the server:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+npm run dev
+#or
+yarn dev
+```
+
+Open http://localhost:3000 in your browser to see the app.
 
 ## Environment variable
 
 - NEXT_PUBLIC_API_URL= get an api key from the [OpenWeather API](https://openweathermap.org/current)
-
-## Run the development server
- ```bash
-  npm run dev
-  #or
-  yarn dev
-````
-
-Open http://localhost:3000 in your browser to see the app.
 
 ## Screenshots
 
